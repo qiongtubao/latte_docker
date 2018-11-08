@@ -1,0 +1,1 @@
+docker run --name mongodb001  -v $PWD/data:/data -p 28017:28017 -p 27017:27017  -d mongodb:4.0.4  mongod
