@@ -17,3 +17,6 @@ docker stop <id>
 
 #删除
 docker rm <id>
+
+#sh
+docker exec -it <id> /bin/bash
